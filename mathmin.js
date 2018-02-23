@@ -9,6 +9,8 @@ function removeSmallest(myArray) {
 myArray = removeSmallest(myArray);
 console.log(myArray);
 
+//
+
 // removeSmallest(numbers) {
 // find the index of the smallest number
 // set smallest number index to 0 (the first value in numbers)

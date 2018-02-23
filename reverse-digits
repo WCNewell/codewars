@@ -1,0 +1,22 @@
+const num = 348597
+
+function digitize(num) {
+    let initialArray = ("" + num).split("");
+    let reversedArray = [];
+    for (let i = initialArray.length - 1; i >= 0; i--)
+        reversedArray[i] = parseInt(initialArray.shift(), 10);
+    return reversedArray;
+}
+
+console.log(digitize(num));
+
+// const num = 348597
+// arr = String(num).split("").reverse().map(Number);
+
+// console.log(arr);
+
+// function digitize(num) {
+//     return num.toString().split('').reverse().map(Number);
+// }
+
+// digitize()
